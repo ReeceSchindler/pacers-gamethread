@@ -1,0 +1,10 @@
+# Needed for something in flask
+blinker
+Flask
+Flask-SSLify
+pyquery
+python-dateutil
+pytz
+raven
+requests
+Twisted

@@ -4,31 +4,65 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-attrs==17.4.0             # via automat
-automat==0.6.0            # via twisted
+attrs==17.4.0
+    # via automat
+automat==0.6.0
+    # via twisted
 blinker==1.4
-certifi==2018.1.18      # via requests
-chardet==3.0.4            # via requests
-click==6.7                # via flask
-constantly==15.1.0        # via twisted
-contextlib2==0.5.5        # via raven
-cssselect==1.0.3          # via pyquery
+    # via -r requirements.in
+certifi==2018.1.18
+    # via requests
+chardet==3.0.4
+    # via requests
+click==6.7
+    # via flask
+constantly==15.1.0
+    # via twisted
+contextlib2==0.5.5
+    # via raven
+cssselect==1.0.3
+    # via pyquery
 flask-sslify==0.1.5
-flask==0.12.2             # via flask-sslify
-hyperlink==18.0.0         # via twisted
-idna==2.6                 # via requests
-incremental==17.5.0       # via twisted
-itsdangerous==0.24        # via flask
-jinja2==2.10             # via flask
-lxml==4.2.0               # via pyquery
-markupsafe==1.0           # via jinja2
+    # via -r requirements.in
+flask==0.12.2
+    # via
+    #   -r requirements.in
+    #   flask-sslify
+hyperlink==18.0.0
+    # via twisted
+idna==2.6
+    # via
+    #   hyperlink
+    #   requests
+incremental==17.5.0
+    # via twisted
+itsdangerous==0.24
+    # via flask
+jinja2==2.10
+    # via flask
+lxml==4.6.3
+    # via pyquery
+markupsafe==1.0
+    # via jinja2
 pyquery==1.4.0
+    # via -r requirements.in
 python-dateutil==2.7.0
+    # via -r requirements.in
 pytz==2018.3
+    # via -r requirements.in
 raven==6.6.0
+    # via -r requirements.in
 requests==2.18.4
-six==1.11.0               # via automat, python-dateutil
+    # via -r requirements.in
+six==1.11.0
+    # via
+    #   automat
+    #   python-dateutil
 twisted==17.9.0
-urllib3==1.22             # via requests
-werkzeug==0.14.1          # via flask
-zope.interface==4.4.3     # via twisted
+    # via -r requirements.in
+urllib3==1.22
+    # via requests
+werkzeug==0.14.1
+    # via flask
+zope.interface==4.4.3
+    # via twisted
